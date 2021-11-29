@@ -1,5 +1,6 @@
-rem ipython kernel install --name "env" --user
-rem .\env\Scripts\activate.bat
+rem python -m venv titanic-env
+rem ipython kernel install --name "titanic-env" --user
+rem .\titanic-env\Scripts\activate.bat
 pip install jupyter;
 pip install numpy;
 pip install pandas;
